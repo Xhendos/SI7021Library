@@ -19,7 +19,6 @@ C++ library for the SI7021 sensor
 
 Initialize the Wire library with the correct SerialClock and SerialData pins.  
 This method should ALWAYS been called before using any other methods of the API. 
-
 The method does not return anything.
 
 ```C++
