@@ -63,7 +63,7 @@ Values for the parameter Temperature:
 | -------------    |:-------------:| 
 | CELSIUS           | Returns temperature in digit celsius   |
 | FAHRENHEIT    | Returns temperature in digit fahrenheit   |
-| KELVIN    | Version 0.1   |
-| RANKINE             | Version 0.1   |
+| KELVIN    | Returns temperature in digit kelvin   |
+| RANKINE             | Returns temperature in digit rankine   |
 
 
