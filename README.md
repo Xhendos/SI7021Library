@@ -13,3 +13,11 @@ C++ library for the SI7021 sensor
 | reset()          | Version 0.1   |
 | getHumidity()    | Version 0.1   |
 | getTemperature() | Version 0.1   |
+
+
+###init() [void]
+
+Initialize the Wire library with the correct SerialClock and SerialData pins. \n  
+This method should ALWAYS been called before using any other methods of the API. \n
+
+.
