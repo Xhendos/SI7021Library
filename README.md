@@ -39,11 +39,16 @@ bool SI7021Library::isAvailable()
 Sends a command and will read the response from the SLAVE. <br />
 Possible returns from the SLAVE are <br />
 
-| Revision hexa    | Revision text   | 
-| -------------    |:-------------:| 
+| Revision hexa    | Revision text         | 
+| -------------    |:---------------------:| 
 | 0xFF (255)       | Firmware version 1.0  |
 | 0x20 (32)        | Firmware version 2.0  |
 
 ```C++
 int SI7021Library::getRevision()
 ```
+
+###getTemperature(Temperature temperature) [float]
+Sends a command and will read the response from the SLAVE. <br />
+The programmer can choose what digit should be returned
+Values for the parameter Temperature:
