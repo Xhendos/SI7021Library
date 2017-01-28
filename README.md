@@ -43,3 +43,7 @@ Possible returns from the SLAVE are <br />
 | -------------    |:-------------:| 
 | 0xFF (255)       | Firmware version 1.0  |
 | 0x20 (32)        | Firmware version 2.0  |
+
+```C++
+int SI7021Library::getRevision()
+```
