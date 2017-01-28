@@ -31,4 +31,15 @@ Sends a command and will read the response from the SLAVE. <br />
 If the SLAVE returns the correct address the method returns true. <br />
 In any other cases the method returns false.
 
+```C++
+bool SI7021Library::isAvailable()
+```
 
+###getRevision() [int]
+Sends a command and will read the response from the SLAVE. <br />
+Possible returns from the SLAVE are <br />
+
+| Revision hexa    | Revision text   | 
+| -------------    |:-------------:| 
+| 0xFF             | Firmware version 1.0  |
+| 0x20             | Firmware version 2.0  |
