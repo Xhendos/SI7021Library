@@ -41,5 +41,5 @@ Possible returns from the SLAVE are <br />
 
 | Revision hexa    | Revision text   | 
 | -------------    |:-------------:| 
-| 0xFF             | Firmware version 1.0  |
-| 0x20             | Firmware version 2.0  |
+| 0xFF (255)       | Firmware version 1.0  |
+| 0x20 (32)        | Firmware version 2.0  |
