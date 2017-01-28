@@ -61,10 +61,9 @@ Values for the parameter Temperature:
 
 | Parameter value    | Description   | 
 | -------------    |:-------------:| 
-| init()           | Version 0.1   |
-| isAvailable()    | Version 0.1   |
-| getRevision()    | Version 0.1   |
-| reset()          | Version 0.1   |
-| getHumidity()    | Version 0.1   |
-| getTemperature() | Version 0.1   |
+| CELSIUS           | Version 0.1   |
+| FAHRENHEIT    | Version 0.1   |
+| KELVIN    | Version 0.1   |
+| RANKINE             | Version 0.1   |
+
 
