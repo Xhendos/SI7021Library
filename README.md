@@ -27,7 +27,7 @@ void SI7021Library::init()
 
 ###isAvailable() [bool]
 
-Sends a command and will read the response from the SLAVE.
+Sends a command and will read the response from the SLAVE. <br />
 If the SLAVE returns the correct address the method returns true. <br />
 In any other cases the method returns false.
 
