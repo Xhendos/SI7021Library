@@ -17,7 +17,13 @@ C++ library for the SI7021 sensor
 
 ###init() [void]
 
-Initialize the Wire library with the correct SerialClock and SerialData pins. \n  
-This method should ALWAYS been called before using any other methods of the API. \n
+Initialize the Wire library with the correct SerialClock and SerialData pins.  
+This method should ALWAYS been called before using any other methods of the API. 
+The method does not return anything.
 
-.
+```C++
+void SI7021Library::init()
+```
+
+
+
