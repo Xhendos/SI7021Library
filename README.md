@@ -59,7 +59,7 @@ Values for the parameter Temperature:
 | KELVIN           | Returns temperature in digit kelvin      |
 | RANKINE          | Returns temperature in digit rankine     |
 
-| Function name    | Added since   | 
+| Parameter value    | Description   | 
 | -------------    |:-------------:| 
 | init()           | Version 0.1   |
 | isAvailable()    | Version 0.1   |
