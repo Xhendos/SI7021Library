@@ -5,7 +5,7 @@ C++ library for the SI7021 sensor
 
 ##API
 
-| Tables        | Are           | Cool  |
+| Function name        | Are           | Cool  |
 | ------------- |:-------------:| -----:|
 | col 3 is      | right-aligned | $1600 |
 | col 2 is      | centered      |   $12 |
