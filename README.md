@@ -63,3 +63,20 @@ Values for the parameter Temperature:
 ```C++
 float SI7021Library::getTemperature(Temperature temperature)
 ```
+
+###getHumidity() [float]
+Sends a command and will read the response from the SLAVE. <br />
+Returns the relative humidity with the digit %.
+
+```C++
+float SI7021Library::getHumidity()
+```
+
+###reset() [void]
+Sends a reset command to the sensor. <br />
+Expected behaviour is that the sensor will reset. <br />
+Because it will reset there is no way we can read from the SLAVE and validate it. 
+
+```C++
+void SI7021Library::reset()
+```
