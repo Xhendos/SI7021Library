@@ -52,12 +52,6 @@ int SI7021Library::getRevision()
 Sends a command and will read the response from the SLAVE. <br />
 The programmer can choose what digit should be returned
 Values for the parameter Temperature:
-| Parameter value  | Description | 
-| -------------    |:---------------------:| 
-| CELSIUS          | Returns temperature in digit celsius     |
-| FAHRENHEIT       | Returns temperature in digit fahrenheit  |
-| KELVIN           | Returns temperature in digit kelvin      |
-| RANKINE          | Returns temperature in digit rankine     |
 
 | Parameter value    | Description   | 
 | -------------    |:-------------:| 
@@ -66,4 +60,6 @@ Values for the parameter Temperature:
 | KELVIN           | Returns temperature in digit kelvin   |
 | RANKINE          | Returns temperature in digit rankine   |
 
-
+```C++
+float SI7021Library::getTemperature(Temperature temperature)
+```
