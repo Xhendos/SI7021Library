@@ -7,6 +7,6 @@ C++ library for the SI7021 sensor
 
 | Function name | Added since   | 
 | ------------- |:-------------:| 
-| col 3 is      | right-aligned |
+| isAvailable() | Version 0.1   |
 | col 2 is      | centered      |
 | zebra stripes | are neat      |
