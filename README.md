@@ -5,8 +5,11 @@ C++ library for the SI7021 sensor
 
 ##API
 
-| Function name | Added since   | 
-| ------------- |:-------------:| 
-| isAvailable() | Version 0.1   |
-| col 2 is      | centered      |
-| zebra stripes | are neat      |
+| Function name    | Added since   | 
+| -------------    |:-------------:| 
+| init()           | Version 0.1   |
+| isAvailable()    | Version 0.1   |
+| getRevision()    | Version 0.1   |
+| reset()          | Version 0.1   |
+| getHumidity()    | Version 0.1   |
+| getTemperature() | Version 0.1   |
