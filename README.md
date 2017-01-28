@@ -15,7 +15,7 @@ C++ library for the SI7021 sensor
 | getTemperature() | Version 0.1   |
 
 
-####init() [void]
+###init() [void]
 
 Initialize the Wire library with the correct SerialClock and SerialData pins.  
 This method should ALWAYS been called before using any other methods of the API. <br />
@@ -25,5 +25,10 @@ The method does not return anything.
 void SI7021Library::init()
 ```
 
+###isAvailable() [bool]
+
+Sends a command and will read the response from the SLAVE.
+If the SLAVE returns the correct address the method returns true. <br />
+In any other cases the method returns false.
 
 
