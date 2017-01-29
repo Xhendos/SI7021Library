@@ -80,3 +80,15 @@ Because it will reset there is no way we can read from the SLAVE and validate it
 ```C++
 void SI7021Library::reset()
 ```
+
+##Changelog
+
+Version 0.1
+```
+- Added method init()
+- Added method isAvailable()
+- Added method getRevision()
+- Added method getTemperature(Temperature temperature)
+- Added method getHumidity()
+- Added method reset()
+```
