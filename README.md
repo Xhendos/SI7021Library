@@ -3,7 +3,7 @@ C++ library for the SI7021 sensor
 
 
 
-##API
+## API
 
 | Function name    | Added since   | 
 | -------------    |:-------------:| 
@@ -15,7 +15,7 @@ C++ library for the SI7021 sensor
 | getTemperature() | Version 0.1   |
 
 
-###init() [void]
+### init() [void]
 
 Initialize the Wire library with the correct SerialClock and SerialData pins.  
 This method should ALWAYS been called before using any other methods of the API. <br />
@@ -25,7 +25,7 @@ The method does not return anything.
 void SI7021Library::init()
 ```
 
-###isAvailable() [bool]
+### isAvailable() [bool]
 
 Sends a command and will read the response from the SLAVE. <br />
 If the SLAVE returns the correct address the method returns true. <br />
@@ -35,7 +35,7 @@ In any other cases the method returns false.
 bool SI7021Library::isAvailable()
 ```
 
-###getRevision() [int]
+### getRevision() [int]
 Sends a command and will read the response from the SLAVE. <br />
 Possible returns from the SLAVE are <br />
 
@@ -48,7 +48,7 @@ Possible returns from the SLAVE are <br />
 int SI7021Library::getRevision()
 ```
 
-###getTemperature(Temperature temperature) [float]
+### getTemperature(Temperature temperature) [float]
 Sends a command and will read the response from the SLAVE. <br />
 The programmer can choose what digit should be returned
 Values for the parameter Temperature:
@@ -64,7 +64,7 @@ Values for the parameter Temperature:
 float SI7021Library::getTemperature(Temperature temperature)
 ```
 
-###getHumidity() [float]
+### getHumidity() [float]
 Sends a command and will read the response from the SLAVE. <br />
 Returns the relative humidity with the digit %.
 
@@ -72,7 +72,7 @@ Returns the relative humidity with the digit %.
 float SI7021Library::getHumidity()
 ```
 
-###reset() [void]
+### reset() [void]
 Sends a reset command to the sensor. <br />
 Expected behaviour is that the sensor will reset. <br />
 Because it will reset there is no way we can read from the SLAVE and validate it. 
@@ -81,7 +81,7 @@ Because it will reset there is no way we can read from the SLAVE and validate it
 void SI7021Library::reset()
 ```
 
-##Changelog
+## Changelog
 
 Version 0.1
 ```
